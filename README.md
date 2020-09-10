@@ -21,3 +21,5 @@
 * Type npm "start-script build" this will make a html and manifest file in client/build folder to render on a browser.
 * Once node_modules are downloaded type "npm start" or "yarn start" to start the server on prescribed port.
 
+# Screenshot 📷
+![Alt text](/client/public/Screenshot (161).png)
