@@ -1,4 +1,5 @@
-# College ERP 🏫 in REACT Js 
+![GitHub repo size](https://img.shields.io/github/repo-size/GaurangShukla/College-ERP?style=for-the-badge) ![GitHub commit merge status](https://img.shields.io/github/commit-status/GaurangShukla/College-ERP/master/0b8de4cc6105fb5d6b0cd82a89a27d46ffa92072?style=for-the-badge) [![GitHub stars](https://img.shields.io/github/stars/GaurangShukla/College-ERP?style=for-the-badge)](https://github.com/GaurangShukla/College-ERP/stargazers) [![GitHub issues](https://img.shields.io/github/issues/GaurangShukla/College-ERP?style=for-the-badge)](https://github.com/GaurangShukla/College-ERP/issues)
+# College ERP 🏫 in REACT Js ![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/320px-React-icon.svg.png) 
 
 * This is a simple college erp web app in MERN stack,it consist of all the basic CRUD operations.
 * All the fields (students,teachers,class,exams) can be edited via the admin panel.
@@ -33,4 +34,67 @@
 ![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(171).png)
 ![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(172).png)
 ![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(173).png)
+
+# SCHEMA
+* USER 
+
+| ID      | Primary Key | Required |Unique     |   
+| :---        |    :----:   |          ---: | ---: |
+| Mail      | String       |    |
+| name   | String        |       |
+| password   | String   |✔  | ✔ | 
+| roles   | String        |       |
+| surname   | String        |      |
+| username   | String        |✔      |  ✔  |
+
+
+* COURSE
+
+| ID      | Primary Key | Required |Unique     |   
+| :---        |    :----:   |          ---: | ---: |
+| Name   | String        |✔      |  
+
+* EXAM 
+
+| ID      | Primary Key | Required |Unique     |   
+| :---        |    :----:   |          ---: | ---: |
+| Place   | String        |      |  |
+| Score  | Number        |      |  |
+| Valid  | Boolean        |      |  |
+
+* Relations
+
+| _course     | _student | _teacher     | 
+| :---        |    :----:   |          ---: | 
+| course   | student        |  teacher    |
+| one-to-many   | one-to-many        |  one-to-many    |
+
+* STUDENT
+ 
+| ID      | Primary Key | Required |Unique     |   
+| :---        |    :----:   |          ---: | ---: |
+| DOB   | Date        |   ✔   |  |
+| lastname  | String        |  ✔    |  |
+| name  | String        |     ✔ |  |
+
+* Relations
+
+| _course     | 
+| :---        | 
+| course   |         |      |
+| many-to-many   |         |      |
+
+* TEACHERS
+
+| ID      | Primary Key | Required |Unique     |   
+| :---        |    :----:   |          ---: | ---: |
+| lastname  | String        |  ✔    |  |
+| name  | String        |     ✔ |  |
+
+* Relations
+
+| _course     | 
+| :---        | 
+| course   |         |      |
+| many-to-many   |         |      |
 
