@@ -1,0 +1,48 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "private": true,
+  
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@date-io/date-fns": "^1.1.0",
+    "@date-io/dayjs": "^1.1.0",
+    "@date-io/luxon": "^1.1.0",
+    "@date-io/moment": "^1.1.0",
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "classnames": "2.2.6",
+    "concurrently": "^4.1.0",
+    "date-fns": "^2.0.0-alpha.27",
+    "dayjs": "^1.8.11",
+    "js-sha3": "^0.8.0",
+    "luxon": "^1.12.0",
+    "material-ui-pickers": "^2.2.4",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-grid-system": "^4.4.3",
+    "react-moment": "^0.8.4",
+    "react-redux": "5.0.7",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "1.1.4",
+    "redux": "4.0.0",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css": "yarn run build-css && node-sass --include-path ./src  --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "build": "yarn run build-css && react-scripts build",
+    "start": "concurrently --raw \"yarn run watch-css\" \"PORT=3001 react-scripts start\" ",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

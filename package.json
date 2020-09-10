@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "private": true,
+ 
+  "scripts": {
+    "install": "cd client && yarn install && cd ../server && yarn install",
+    "start": "concurrently --raw \"cd server && yarn start\" \"cd client && yarn start\" ",
+    "build": "concurrently --raw \"cd server && yarn run build\" \"cd client && yarn run build\" ",
+    "debug": "concurrently --raw \"cd server && yarn run debug\" \"cd client && yarn run build\" ",
+    "lint": "tslint ./**/*.ts -t verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.2.0",
+    "copy-webpack-plugin": "^4.0.1"
+  },
+  "repository": {}
+}

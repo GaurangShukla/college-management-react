@@ -1,0 +1,128 @@
+// COLORS
+$bg_color: #ddd;
+$footer_bg: #f5f5f5;
+$link_color: #337ab7;
+$white: #fff;
+$error_bg: #d32f2f;
+
+// TEMPLATE
+
+body {
+  background-color: $bg_color;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  .main-cointainer {
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.white {
+  color: $white;
+}
+
+a {
+  color: $link_color;
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+// CARD
+.footer-card {
+  text-align: right;
+  margin-top: 40px;
+  button {
+    margin-left: 20px;
+  }
+}
+
+// LOGIN PAGE
+.login-form {
+  padding: 30px;
+
+  .text-center {
+    text-align: center;
+  }
+
+  .error {
+    background-color: $error_bg;
+    margin-top: 20px;
+    #client-snackbar {
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+// NAVBAR
+
+.navbar-drawer-header {
+  font-weight: bold;
+  padding: 10px;
+
+  .navbar-drawer-text {
+    display: inline-block;
+    position: relative;
+    top: -11px;
+    padding-right: 20px;
+  }
+
+  .navbar-logo {
+    padding: 10px;
+    width: 50px;
+  }
+}
+
+a.white:active,
+a.white:focus,
+a.white:visited {
+  color: $white !important;
+}
+
+.menu-text span {
+  font-size: 1em;
+}
+
+#navbar-menu {
+  a:focus {
+    outline: none;
+  }
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+// FOOTER
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: $footer_bg;
+  padding: 12px 20px;
+  text-align: right;
+  font-size: 14px;
+}
