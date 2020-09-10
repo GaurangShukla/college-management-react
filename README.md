@@ -22,4 +22,15 @@
 * Once node_modules are downloaded type "npm start" or "yarn start" to start the server on prescribed port.
 
 # Screenshot 📷
-![Alt text](/client/public/Screenshot (161).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(161).png)![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(162).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(163).png)![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(164).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(165).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(166).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(167).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(168).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(169).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(170).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(171).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(172).png)
+![Screenshot](https://github.com/GaurangShukla/College-ERP/blob/master/client/public/Screenshot%20(173).png)
+
