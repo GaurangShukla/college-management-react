@@ -4,10 +4,10 @@
   "private": true,
  
   "scripts": {
-    "install": "cd client && yarn install && cd ../server && yarn install",
-    "start": "concurrently --raw \"cd server && yarn start\" \"cd client && yarn start\" ",
-    "build": "concurrently --raw \"cd server && yarn run build\" \"cd client && yarn run build\" ",
-    "debug": "concurrently --raw \"cd server && yarn run debug\" \"cd client && yarn run build\" ",
+    "install": "cd client && npm install && cd ../server && npm install",
+    "start": "concurrently --raw \"cd server && npm start\" \"cd client && npm start\" ",
+    "build": "concurrently --raw \"cd server && npm run build\" \"cd client && npm run build\" ",
+    "debug": "concurrently --raw \"cd server && npm run debug\" \"cd client && npm run build\" ",
     "lint": "tslint ./**/*.ts -t verbose"
   },
   "keywords": [],
