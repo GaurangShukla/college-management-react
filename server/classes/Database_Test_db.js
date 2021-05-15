@@ -42,7 +42,7 @@ class Database {
     Logger.info("Authenticating to the databases...");
     try {
       this.dbConnection_test_db = await mongoose.connect(
-        "mongodb://" + properties.test_db_dbUrl,
+        "mongodb+srv://a:a@cluster0.tv9sz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" + properties.test_db_dbUrl,
         { useNewUrlParser: true }
       );
     } catch (err) {
