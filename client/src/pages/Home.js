@@ -36,9 +36,8 @@ class Home extends Component {
         </div>
         <div>
           <Link to="/exams">Link to examList</Link>
-        </div>
-        
-            
+        </div>    
+          <Link to="/about">Link to About Page</Link>
       </div>
     );
   }
